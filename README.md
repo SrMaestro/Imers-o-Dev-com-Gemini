@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do projeto **Filmes Estúdios Ghibli**! 🌟
 
-Esta é uma aplicação web simples que permite pesquisar e exibir informações sobre filmes do icônico Estúdio Ghibli. Se você é fã de Ghibli (e quem não é?), vai adorar explorar os filmes através dessa ferramenta interativa!
+Esta é uma aplicação web simples **feita Imersão Dev com Google Gemini** que permite pesquisar e exibir informações sobre filmes do icônico Estúdio Ghibli. Se você é fã de Ghibli (e quem não é?), vai adorar explorar os filmes através dessa ferramenta interativa!
 
 ## 📖 O que a aplicação faz?
 
