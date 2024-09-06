@@ -36,7 +36,7 @@ Aqui estão as tecnologias que usamos para construir essa aplicação:
 
 Aqui está o link para voce acessar:
 
-![Tela da Aplicação](https://imers-o-dev-com-gemini.vercel.app)
+https://imers-o-dev-com-gemini.vercel.app
 
 ## 📥 Como Rodar Localmente
 
