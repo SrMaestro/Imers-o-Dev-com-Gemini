@@ -44,3 +44,29 @@ https://imers-o-dev-com-gemini.vercel.app
    ```bash
    git clone https://github.com/seu-usuario/filmes-estudios-ghibli.git
 
+
+   ## 🐛 Encontrou um Bug?
+
+Se você encontrar algum bug ou tiver sugestões de melhorias, sinta-se à vontade para:
+
+- **Abrir uma [issue](https://github.com/seu-usuario/filmes-estudios-ghibli/issues)**
+- **Enviar um [pull request](https://github.com/seu-usuario/filmes-estudios-ghibli/pulls)**
+
+A contribuição é sempre bem-vinda!
+
+## 🙌 Agradecimentos
+
+Um agradecimento especial aos seguintes colaboradores e organizações:
+
+- **Estúdio Ghibli** por criar filmes tão incríveis que inspiraram este projeto! 🎥✨
+- **Rafaella Ballerini, Guilherme Lima e Luciano Martins**, pelos ensinamentos e orientações que foram fundamentais para o desenvolvimento deste projeto.
+- **Alura** e **Google Gemini**, pelas suas contribuições e apoio contínuo no aprendizado e crescimento profissional.
+
+Muito obrigado a todos! 🌟
+
+
+## 📧 Contato
+
+Se você tiver perguntas ou apenas quiser bater um papo sobre filmes, sinta-se à vontade para me enviar um e-mail: [email@gmail.com](luisfelipe.dev.programmer@gmail.com).
+
+
