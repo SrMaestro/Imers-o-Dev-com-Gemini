@@ -32,11 +32,11 @@ Aqui estão as tecnologias que usamos para construir essa aplicação:
 - `app.js`: O JavaScript que faz a pesquisa e exibe os resultados.
 - `dados.js`: Contém os dados dos filmes do Estúdio Ghibli.
 
-## 🖼️ Exemplo de Tela
+## 🖼️ De uma olhada
 
-Aqui está uma captura de tela da aplicação em ação:
+Aqui está o link para voce acessar:
 
-![Tela da Aplicação](https://via.placeholder.com/600x400?text=Exemplo+de+Tela)
+![Tela da Aplicação](https://imers-o-dev-com-gemini.vercel.app)
 
 ## 📥 Como Rodar Localmente
 
