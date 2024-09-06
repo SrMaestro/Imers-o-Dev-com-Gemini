@@ -1,198 +1,250 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* Importa uma fonte personalizada do Google Fonts chamada "Chakra Petch" com várias opções de peso e estilo (itálico e normal) */
 
-/* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif;
+    /* Define a fonte principal da página como "Chakra Petch", com fallback para "sans-serif" */
     background-image: url('assets/backgroundImage.png');
+    /* Define uma imagem de fundo para a página */
     background-size: cover;
+    /* Faz com que a imagem de fundo cubra toda a área do corpo */
     background-position: left;
+    /* Posiciona a imagem de fundo à esquerda */
     object-fit: contain;
+    /* Ajusta a imagem de fundo para manter sua proporção dentro da área do elemento */
     display: flex;
+    /* Define o layout do corpo como flexbox */
     flex-direction: column;
+    /* Organiza os itens dentro do flexbox em uma coluna */
     align-items: center;
+    /* Centraliza os itens horizontalmente no meio da página */
     justify-content: center;
+    /* Centraliza os itens verticalmente no meio da página */
     height: 100vh;
+    /* Define a altura do corpo como 100% da altura da viewport */
     margin: 0;
+    /* Remove a margem padrão do corpo */
     padding: 0;
+    /* Remove o preenchimento interno padrão do corpo */
 }
 
-/* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem;
+    /* Define o tamanho da fonte do título h1 como 2.5rem */
     color: #8C683B;
+    /* Define a cor do texto do título como marrom claro (#8C683B) */
     text-align: center;
+    /* Centraliza o texto */
     letter-spacing: 0.4rem;
+    /* Define o espaçamento entre as letras do título */
 }
 
-/* Estiliza as seções da página */
 section {
     display: flex;
+    /* Define o layout da seção como flexbox */
     flex-direction: column;
+    /* Organiza os itens dentro da seção em uma coluna */
     align-items: center;
+    /* Centraliza os itens dentro da seção */
     margin-bottom: 3rem;
+    /* Adiciona uma margem inferior de 3rem */
 }
 
-/* Estiliza os inputs dentro das seções */
 section input {
     width: 30rem;
+    /* Define a largura do campo de entrada como 30rem */
     border: none;
+    /* Remove a borda padrão do campo de entrada */
     padding: 1rem;
+    /* Adiciona um preenchimento interno de 1rem ao campo de entrada */
     border-radius: 1.5rem;
+    /* Arredonda as bordas do campo de entrada */
     margin-bottom: 1rem;
+    /* Adiciona uma margem inferior de 1rem */
     color: #8C683B;
+    /* Define a cor do texto do campo de entrada */
     font-size: 1rem;
+    /* Define o tamanho da fonte do texto do campo de entrada */
     box-sizing: border-box;
+    /* Inclui o preenchimento interno e as bordas na largura total do campo */
     background-color: #F2CF63;
+    /* Define a cor de fundo do campo de entrada como amarelo claro (#F2CF63) */
 }
 
-/* Estiliza os botões dentro das seções */
 section button {
     padding: 0.8rem 1.2rem;
+    /* Adiciona um preenchimento interno ao botão (0.8rem na vertical, 1.2rem na horizontal) */
     border: none;
+    /* Remove a borda padrão do botão */
     border-radius: 1.5rem;
+    /* Arredonda as bordas do botão */
     background-color: #F2A950;
+    /* Define a cor de fundo do botão como laranja claro (#F2A950) */
     color: #8C683B;
+    /* Define a cor do texto do botão */
     font-size: 1rem;
+    /* Define o tamanho da fonte do botão */
     cursor: pointer;
+    /* Muda o cursor para "pointer" ao passar o mouse sobre o botão */
 }
 
-/* Adiciona efeito hover ao botão */
 section button:hover {
     background-color: #30475E;
+    /* Muda a cor de fundo do botão ao passar o mouse para azul escuro (#30475E) */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Adiciona uma sombra ao botão ao passar o mouse */
 }
 
-/* Estiliza a caixa de resultados */
 .resultados-pesquisa {
     width: 60rem;
+    /* Define a largura da caixa de resultados como 60rem */
     height: 46vh;
+    /* Define a altura da caixa de resultados como 46% da altura da viewport */
     overflow-y: auto;
+    /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura */
     margin-top: 1rem;
+    /* Adiciona uma margem superior de 1rem */
     padding: 1rem;
+    /* Adiciona um preenchimento interno de 1rem à caixa de resultados */
     border-radius: 0.6rem;
-    background-color: #04505985;
+    /* Arredonda as bordas da caixa de resultados */
+     /*background-color: #04505985;*/
+    /* Define a cor de fundo da caixa de resultados com transparência (um tom de azul esverdeado) */
+    color:#F2CF63 ;
+    
 }
 
-/* Estiliza cada item de resultado */
 .item-resultado {
-    background-color: #f2ce63c5;
+    background-color: #F2CF63;
+    /* Define a cor de fundo de cada item de resultado com transparência (amarelo claro) */
     border-radius: 0.6rem;
+    /* Arredonda as bordas de cada item de resultado */
     padding: 1rem;
+    /* Adiciona um preenchimento interno de 1rem a cada item de resultado */
     margin-bottom: 1rem;
+    /* Adiciona uma margem inferior de 1rem entre os itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra leve aos itens de resultado */
     color: #30475E;
+    /* Define a cor do texto dos itens de resultado */
 }
 
-/* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem;
+    /* Define o tamanho da fonte dos títulos dentro dos itens de resultado */
     color: #F2CF63;
+    /* Define a cor do título dos itens de resultado como amarelo claro (#F2CF63) */
 }
 
-/* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none;
+    /* Remove a decoração de texto (sublinhado) dos links */
     color: #30475E;
+    /* Define a cor dos links dentro dos itens de resultado */
 }
 
-/* Estiliza os links ao passar o mouse */
 .item-resultado a:hover {
     text-decoration: underline;
+    /* Adiciona um sublinhado aos links ao passar o mouse */
     color: #F2A950;
+    /* Muda a cor dos links ao passar o mouse para laranja (#F2A950) */
 }
 
-/* Estiliza a descrição meta */
 .descricao-meta {
     color: #45474B;
+    /* Define a cor do texto da descrição meta */
     margin: 0.5rem 0;
+    /* Define uma margem vertical de 0.5rem */
 }
 
-/* Estiliza o rodapé */
 footer {
     background-color: #045159;
+    /* Define a cor de fundo do rodapé como azul escuro (#045159) */
     color: #F2CF63;
+    /* Define a cor do texto do rodapé como amarelo claro (#F2CF63) */
     text-align: center;
+    /* Centraliza o texto dentro do rodapé */
     padding: 0;
+    /* Remove o preenchimento interno do rodapé */
     width: 100%;
+    /* Define a largura do rodapé como 100% da largura da tela */
     position: absolute;
+    /* Define o rodapé como posicionado absolutamente */
     bottom: 0;
+    /* Posiciona o rodapé no fundo da página */
     font-size: 1rem;
+    /* Define o tamanho da fonte do rodapé */
 }
 
-/* Estiliza as cartas */
-.card {
-    background-color: #F2CF63;
-    border-radius: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 2rem;
-    margin: 1rem;
-    width: 18rem;
-    transition: transform 0.2s;
-}
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
 
-.card h3 {
-    font-size: 1.5rem;
-    color: #30475E;
-    margin-bottom: 1rem;
-}
 
-.card p {
-    color: #45474B;
-    font-size: 1rem;
-}
 
-/* Responsividade */
+
 @media (max-width: 768px) {
+    /* Estilos aplicados quando a largura da tela é de no máximo 768px (dispositivos como tablets) */
     h1 {
         font-size: 2rem;
+        /* Diminui o tamanho da fonte do título para 2rem */
         letter-spacing: 0.2rem;
+        /* Diminui o espaçamento entre as letras do título */
     }
 
     section input {
         width: 25rem;
+        /* Diminui a largura do campo de entrada para 25rem */
         padding: 0.8rem;
+        /* Diminui o preenchimento interno do campo de entrada */
     }
 
     .resultados-pesquisa {
         width: 40rem;
+        /* Diminui a largura da caixa de resultados para 40rem */
         height: 40vh;
+        /* Diminui a altura da caixa de resultados para 40% da altura da viewport */
     }
 
     .item-resultado h2 {
         font-size: 1.3rem;
+        /* Diminui o tamanho da fonte dos títulos dentro dos itens de resultado */
     }
 }
 
 @media (max-width: 480px) {
+    /* Estilos aplicados quando a largura da tela é de no máximo 480px (dispositivos como smartphones) */
     h1 {
         font-size: 1.8rem;
+        /* Diminui o tamanho da fonte do título para 1.8rem */
         letter-spacing: 0.1rem;
+        /* Diminui ainda mais o espaçamento entre as letras */
     }
 
     section input {
         width: 17rem;
+        /* Diminui a largura do campo de entrada para 17rem */
     }
 
     section button {
         padding: 0.6rem 1rem;
+        /* Diminui o preenchimento interno do botão */
         font-size: 0.9rem;
+        /* Diminui o tamanho da fonte do botão */
     }
 
     .resultados-pesquisa {
         width: 90%;
+        /* Define a largura da caixa de resultados para 90% da tela */
         height: 50vh;
+        /* Define a altura da caixa de resultados para 50% da altura da viewport */
     }
 
     .item-resultado h2 {
         font-size: 1.1rem;
+        /* Diminui o tamanho da fonte dos títulos dentro dos itens de resultado */
     }
 
     footer {
         font-size: 0.9rem;
+        /* Diminui o tamanho da fonte do rodapé */
     }
 }

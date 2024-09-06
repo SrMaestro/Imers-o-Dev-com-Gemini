@@ -1,36 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <!-- Define o tipo de documento como HTML5 -->
+  <!-- O atributo lang indica que o idioma principal da página é o português brasileiro -->
+
   <head>
+    <!-- Cabeçalho da página, contém metadados e links para estilos, scripts e outras informações não visíveis diretamente -->
+
     <meta charset="UTF-8" />
+    <!-- Define a codificação de caracteres como UTF-8, que suporta uma vasta gama de caracteres (incluindo acentuações) -->
+
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
+    <!-- Faz com que a página seja responsiva, ajustando a largura ao dispositivo (por exemplo, mobile ou desktop) -->
+
     <link
       rel="stylesheet"
       href="style.css" />
+    <!-- Importa o arquivo CSS externo para estilizar a página -->
+
     <title>Document</title>
+    <!-- Define o título da página que será exibido na aba do navegador -->
   </head>
+
   <body>
+    <!-- Corpo da página onde o conteúdo visível pelo usuário é inserido -->
+
     <header>
+      <!-- Elemento de cabeçalho, usado geralmente para títulos e navegação -->
       <h1>Filmes Estúdios Ghibli</h1>
+      <!-- Título principal da página -->
     </header>
+
     <main>
+      <!-- O elemento main contém o conteúdo principal da página -->
+
       <section>
+        <!-- Uma seção da página, usada para agrupar conteúdo relacionado -->
         <input
+          id="campo-pesquisa"
           type="text"
           placeholder="buscar" />
+        <!-- Caixa de texto para o usuário inserir uma pesquisa, com o texto padrão "buscar" -->
         <button onclick="pesquisar()">Pesquisar</button>
+        <!-- Botão que, ao ser clicado, chama a função JavaScript "pesquisar()" -->
       </section>
+
       <section
         class="resultados-pesquisa"
         id="resultados-pesquisa"></section>
+      <!-- Outra seção da página, com a classe "resultados-pesquisa" e o id "resultados-pesquisa", usada para exibir os resultados da pesquisa -->
     </main>
+
     <footer>
-      im
-      <p>2024 atletas do brasil . Todos os direitos reservados</p>
-      <p>entre em contatao por email : email@gmail.com</p>
+      <!-- Rodapé da página, geralmente contém informações de copyright, links e contato -->
+      <p>2024 Filmes Estúdios Ghibli . Todos os direitos reservados</p>
+      <!-- Parágrafo de copyright ou aviso legal -->
+      <p>entre em contato por email: email@gmail.com</p>
+      <!-- Parágrafo com informações de contato por e-mail -->
     </footer>
+
     <script src="dados.js"></script>
+    <!-- Importa o arquivo JavaScript "dados.js", que pode conter dados ou funções para a página -->
     <script src="app.js"></script>
+    <!-- Importa o arquivo JavaScript "app.js", que provavelmente contém a lógica de funcionamento da página (como a função "pesquisar()") -->
   </body>
 </html>
+<!-- Fim do documento HTML -->
