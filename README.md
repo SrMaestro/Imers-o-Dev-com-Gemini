@@ -44,9 +44,9 @@ https://imers-o-dev-com-gemini.vercel.app
    ```bash
    git clone https://github.com/seu-usuario/filmes-estudios-ghibli.git
 
-
-   ## 🐛 Encontrou um Bug?
-
+   ```
+  
+ ## 🐛 Encontrou um Bug?
 Se você encontrar algum bug ou tiver sugestões de melhorias, sinta-se à vontade para:
 
 - **Abrir uma [issue](https://github.com/seu-usuario/filmes-estudios-ghibli/issues)**
