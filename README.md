@@ -67,8 +67,7 @@ Muito obrigado a todos! 🌟
 
 ## 📧 Contato
 
-Se você tiver perguntas, sugestões ou apenas quiser bater um papo sobre filmes e tecnologia, sinta-se à vontade para me enviar um e-mail: [email@gmail.com](luisfelipe:luisfelipe.dev.programmer@gmail.com
-
+Se você tiver perguntas, sugestões ou apenas quiser bater um papo sobre filmes e tecnologia, sinta-se à vontade para me enviar um e-mail: [luisfelipe.dev.programmer@gmail.com](mailto:luisfelipe.dev.programmer@gmail.com). 
 ). 
 
 Também estou no [LinkedIn](https://www.linkedin.com/in/luisfeleão/) – conecte-se comigo para trocar ideias e discutir sobre projetos interessantes!
